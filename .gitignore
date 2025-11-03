@@ -1,0 +1,25 @@
+# IntelliJ IDEA / JetBrains IDEs
+.idea/
+*.iml
+out/
+target/
+*.class
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary or backup files
+*.tmp
+*.bak
+*.swp
+
+# Build tools (if added later)
+.gradle/
+build/
+
+# Java-related
+bin/
