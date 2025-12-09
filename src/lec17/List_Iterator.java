@@ -9,7 +9,7 @@ public class List_Iterator {
         list.add(4);
         list.add(5);
         list.add(6);
-
+        list.add(7);
         ListIterator<Integer> it=list.listIterator();
         System.out.print("Forward : ");
         while (it.hasNext()){
@@ -23,6 +23,5 @@ public class List_Iterator {
             int x=it.previous();
             System.out.print(x+" ");
         }
-
     }
 }
