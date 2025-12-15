@@ -28,8 +28,8 @@ public class ATM {
         Bank b = new Bank();
         MyThread t1 = new MyThread(b);
         MyThread t2 = new MyThread(b);
-        t1.setName("om");
-        t2.setName("Aman");
+        t1.setName("Ishika");
+        t2.setName("Jishaan");
         t1.start();
         t2.start();
     }
