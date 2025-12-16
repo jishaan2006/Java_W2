@@ -7,8 +7,9 @@ public class Iterator_Intro {
         list.add(2);
         list.add(3);
         list.add(4);
+        list.add(5);
         Iterator<Integer> it=list.iterator();
-        while (it.hasNext()){
+        while(it.hasNext()){
             if(it.next()==3) {
                 it.remove();
             }
