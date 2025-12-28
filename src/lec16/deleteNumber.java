@@ -15,6 +15,7 @@ public class deleteNumber {
         set.add(10);
         System.out.println("Set :"+set);
         set.remove(2);
-        System.out.println("Set after Deleting 2:"+set);
+        set.remove(3);
+        System.out.println("Set after Deleting 2 & 3:"+set);
     }
 }
